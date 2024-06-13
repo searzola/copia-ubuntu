@@ -1,0 +1,7 @@
+<launch>
+<node pkg="lab_2" exec="square_photos_node" name="square_photos" />
+<node pkg="lab_2" exec="square_watcher_node" name="square_watcher" />
+<node pkg="lab_2" exec="square_follower_node" name="square_follower" />
+
+
+</launch>
